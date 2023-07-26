@@ -1,6 +1,6 @@
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
-import Dashboard from "../Layout/Dashboard"
-import Welcome from "../Pages/Welcome"
+import Dashboard from "./Layout/Dashboard"
+import Welcome from "./Pages/Welcome"
 
 function App() {
 
