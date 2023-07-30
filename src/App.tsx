@@ -1,13 +1,13 @@
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
-import Dashboard from "./Layout/Dashboard"
 import Welcome from "./Pages/Welcome"
+import Sidebar from './Layout/Sidebar'
 
 function App() {
 
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route path="/Stagisti" element={<Dashboard/>}>
+    <Route path="/Stagisti" element={<Sidebar/>}>
       <Route index element={<Welcome/>}></Route>
-      <Route path="*" element={<h1>Non va Faccina Triste</h1>}></Route>
+      <Route path="*" element={<h1>Pagine inesistente</h1>}></Route>
     </Route>
   ))
 
