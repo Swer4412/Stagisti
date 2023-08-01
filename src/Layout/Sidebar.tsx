@@ -1,5 +1,4 @@
 import { Link, Outlet } from 'react-router-dom';
-import { AiFillHome } from "react-icons/ai"
 
 const url = "/Stagisti/"
 
@@ -42,7 +41,7 @@ const Sidebar = () => {
           </ul>
         </nav>
       </div>
-      <main className="flex-grow bg-gray-100">
+      <main className="flex-grow bg-gray-100 justify-center">
         <Outlet />
       </main>
     </div>

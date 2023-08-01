@@ -1,11 +1,11 @@
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
-import Welcome from "./Pages/Welcome"
-import Sidebar from './Layout/Sidebar'
-import Windows from './Pages/Windows'
-import Setup from './Pages/Setup'
-import Errori from './Pages/Errori'
-import Hardware from './Pages/Hardware'
-import Curiosita from './Pages/Curiosita'
+import Welcome from "./pages/Welcome"
+import Sidebar from './layout/Sidebar'
+import Windows from './pages/Windows'
+import Setup from './pages/Setup'
+import Errori from './pages/Errori'
+import Hardware from './pages/Hardware'
+import Curiosita from './pages/Curiosita'
 
 function App() {
 
