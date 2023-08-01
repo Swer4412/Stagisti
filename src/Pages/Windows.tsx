@@ -1,13 +1,13 @@
-import file from '../assets/texts/windows.json' 
+import file from '../texts/windows.json' 
 import Step from '../components/Step'
-import { step } from '../components/Step';
 
 const Windows = () => {
+// ti prego non toccare, non ho la minima idea di come funzioni
 
     return (
-        file.map((step: step) =>{
-            <Step step={step}/>
-        })
+        file.map((step) =>(
+            <Step {...step}/> 
+        ))
     );
     
 };

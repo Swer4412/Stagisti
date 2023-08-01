@@ -1,4 +1,4 @@
-export type step = {
+type step = {
     title: string,
     body: Array<element>
 }
@@ -10,19 +10,24 @@ type element = {
 }
 
 const Step = (step: step) => {
-    return <>
+    return (
+      <>
         <h1>{step.title}</h1>
-        {step.body.map((element: element) => (
-            element.text && <p>{element.text}</p>,
-            element.image && <img src={element.image}/>,
-            element.list &&
-            <ul>    
-                {element.list.map(item => (
-                    <li>{item}</li>
-                ))}
+        {step.body.map((element) => (
+          element.text && <p>{element.text}</p> ||
+          element.image && <img src={element.image}/> ||
+          element.list && (
+            <ul>
+              {element.list.map((item) => (
+                <li>{item}</li>
+              ))}
             </ul>
+          )
         ))}
-    </>
-};
+      </>
+    );
+  };
+
+
 
 export default Step;
