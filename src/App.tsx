@@ -17,7 +17,7 @@ function App() {
       <Route path="/Stagisti/errori" element={<Errori/>}/>
       <Route path="/Stagisti/hardware" element={<Hardware/>}/>
       <Route path="/Stagisti/curiosita" element={<Curiosita/>}/>
-      <Route path="*" element={<h1>Pagine inesistente</h1>}></Route>
+      <Route path="*" element={<h1>Pagina inesistente</h1>}></Route>
     </Route>
   ))
 
