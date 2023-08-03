@@ -3,21 +3,25 @@
         "title": "CHIAVETTA E BOOT MENU",
         "body": [
             {
-                "text": "Per installare windows bisogna inserire la chiavetta usb nel pc, accenderlo e poi premere uno di questi bottoni per entrare nel boot menu:"
+                "image": "/usb-stick.jpeg"
+            },
+            {
+                "text": "Per installare windows bisogna inserire la chiavetta usb nel pc, accenderlo e poi premere uno di questi tasti per entrare nel boot menu:"
+            },
+            
+            {
+                "image": "/keyboard.jpg"
             },
             {
                 "list": [
                     "HP: Esc o F9",
-                    "ASUS: F8, mantieni premuto F2 e accendi",
+                    "ASUS: F8 o mantieni premuto F2 e accendi",
                     "DELL e LENOVO: F12",
                     "MSI: F11"
                 ]
             },
             {
-                "image": "/keyboard.jpg"
-            },
-            {
-                "text": "Una volta entrato nel boot menu seleziona la chiavetta usb"
+                "text": "Una volta entrato nel boot menu seleziona la chiavetta usb (Attenzione non è uguale per tutti)"
             }
         ]
     },

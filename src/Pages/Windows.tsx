@@ -2,14 +2,15 @@ import file from '../texts/windows.json'
 import Step from '../components/Step'
 
 const Windows = () => {
-// ti prego non toccare, non ho la minima idea di come funzioni
+  // Declare a counter variable and initialize it to 1
+  let counter = 1;
 
-    return (
-        file.map((step) =>(
-            <Step {...step}/> 
-        ))
-    );
-    
+  return (
+    file.map((step) => {
+      // Pass the counter value as a prop to the Step component
+      return <Step {...step} counter={counter++} />
+    })
+  );
 };
 
 export default Windows;

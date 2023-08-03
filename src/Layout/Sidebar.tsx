@@ -9,8 +9,8 @@ const url = "/Stagisti/"
 
 const Sidebar = () => {
   return (
-    <div className="flex h-screen bg-gray-800">
-      <div className="w-64 flex flex-col text-white font-bold font-sans">
+    <div className="flex h-full">
+      <div className="w-64 flex flex-col bg-gray-800 text-white font-bold font-sans">
         <div className="flex items-center justify-center h-14 border-b border-gray-700">
           <Link to={url} className="px-4 py-2 hover:bg-gray-700 text-3xl">
             <div>Stagisti</div>
@@ -19,34 +19,34 @@ const Sidebar = () => {
         <nav className="flex-grow">
           <ul className="flex flex-col py-4">
             <li className="m-2">
-              <Link to={url + "windows"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center ">
+              <Link to={url + "windows"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
                 <SiWindows11 /> <p className='ml-2'>Windows</p>
               </Link>
             </li>
             <li className="m-2">
-              <Link to={url + "setup"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center">
+              <Link to={url + "setup"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
                 <LuScreenShare /> <p className='ml-2'>Setup</p>
               </Link>
             </li>
             <li className="m-2">
-              <Link to={url + "errori"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center">
+              <Link to={url + "errori"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
                 <BiError /> <p className='ml-2'>Errori</p>
               </Link>
             </li>
             <li className="m-2">
-              <Link to={url + "hardware"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center">
+              <Link to={url + "hardware"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
                 <MdHardware /> <p className='ml-2'>Hardware</p>
               </Link>
             </li>
             <li className="m-2">
-              <Link to={url + "curiosita"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center">
+              <Link to={url + "curiosita"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
                 <FaRegLightbulb /><p className='ml-2'>Curiosità</p>
               </Link>
             </li>
           </ul>
         </nav>
       </div>
-      <main className="flex-grow bg-gray-100 justify-center">
+      <main className="flex flex-col bg-gray-100 justify-center">
         <Outlet />
       </main>
     </div>
