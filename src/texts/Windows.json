@@ -6,14 +6,14 @@
                 "image": "/usb-stick.jpeg"
             },
             {
-                "text": "Per installare windows bisogna inserire la chiavetta usb nel pc, accenderlo e poi premere uno di questi tasti per entrare nel boot menu:"
+                "text": "Per installare windows bisogna inserire la chiavetta usb nel pc, accenderlo e poi premere RIPETUTAMENTE uno di questi tasti per entrare nel boot menu:"
             },
             
             {
                 "image": "/keyboard.jpg"
             },
             {
-                "text": "ATTENZIONE! il bottone deve essere cliccato ripetutamente da quando si accende il pc fino a quando si apre il boot menù"
+                "text": "ATTENZIONE! il tasto deve essere cliccato ripetutamente da quando si accende il pc fino a quando si apre il boot menù"
             },
             {
                 "list": [
@@ -24,7 +24,7 @@
                 ]
             },
             {
-                "text": "Una volta entrato nel boot menu seleziona la chiavetta usb (Attenzione non è uguale per tutti)"
+                "text": "Una volta entrato nel boot menù (la grafica cambia in base alla marca) seleziona la chiavetta usb "
             },
             {
                 "image": "/boot-menu.png"

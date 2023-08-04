@@ -10,7 +10,7 @@ const url = "/Stagisti/"
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-row h-full overflow-auto ">
+    <div className="flex flex-row overflow-auto min-h-screen">
       <div className="w-64 flex flex-col bg-gray-800 text-white font-bold font-sans sticky">
         <div className="flex items-center justify-center h-14 border-b border-gray-700">
           <Link to={url} className="px-4 py-2 hover:bg-gray-700 text-3xl">
@@ -48,7 +48,7 @@ const Sidebar = () => {
         </nav>
       </div>
       <main className="flex flex-col flex-grow bg-gray-100 justify-center">
-        <ScrollToTop smooth top={300} className='px-[6px]'/>
+        <ScrollToTop smooth top={500} className='px-[6px]'/>
         <Outlet />
       </main>
     </div>
