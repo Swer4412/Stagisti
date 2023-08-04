@@ -4,13 +4,14 @@ import { LuScreenShare } from "react-icons/lu"
 import { BiError } from "react-icons/bi"
 import { MdHardware } from "react-icons/md"
 import { FaRegLightbulb } from "react-icons/fa"
+import ScrollToTop from 'react-scroll-to-top';
 
 const url = "/Stagisti/"
 
 const Sidebar = () => {
   return (
-    <div className="flex h-full">
-      <div className="w-64 flex flex-col bg-gray-800 text-white font-bold font-sans">
+    <div className="flex flex-row h-full overflow-auto ">
+      <div className="w-64 flex flex-col bg-gray-800 text-white font-bold font-sans sticky">
         <div className="flex items-center justify-center h-14 border-b border-gray-700">
           <Link to={url} className="px-4 py-2 hover:bg-gray-700 text-3xl">
             <div>Stagisti</div>
@@ -46,7 +47,8 @@ const Sidebar = () => {
           </ul>
         </nav>
       </div>
-      <main className="flex flex-col bg-gray-100 justify-center">
+      <main className="flex flex-col flex-grow bg-gray-100 justify-center">
+        <ScrollToTop smooth top={300} className='px-[6px]'/>
         <Outlet />
       </main>
     </div>

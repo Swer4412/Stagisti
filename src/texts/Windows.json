@@ -13,6 +13,9 @@
                 "image": "/keyboard.jpg"
             },
             {
+                "text": "ATTENZIONE! il bottone deve essere cliccato ripetutamente da quando si accende il pc fino a quando si apre il boot menù"
+            },
+            {
                 "list": [
                     "HP: Esc o F9",
                     "ASUS: F8 o mantieni premuto F2 e accendi",
@@ -22,6 +25,9 @@
             },
             {
                 "text": "Una volta entrato nel boot menu seleziona la chiavetta usb (Attenzione non è uguale per tutti)"
+            },
+            {
+                "image": "/boot-menu.png"
             }
         ]
     },
