@@ -1,6 +1,11 @@
-import {step} from "./Step"
+type legendProps = {
+    counter: number,
+    title: string,
+}
 
-const Legend = ( {title, counter}: step ) => {
+//Boh spero che un giorno possa essere così intelligente da implementare questa funzione
+
+const Legend = ( {title, counter}: legendProps) => {
     
     const url = "#" + title
     

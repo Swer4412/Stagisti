@@ -5,16 +5,18 @@ import { BiError } from "react-icons/bi"
 import { MdHardware } from "react-icons/md"
 import { FaRegLightbulb } from "react-icons/fa"
 import ScrollToTop from 'react-scroll-to-top';
+import S from '/s.png'
 
 const url = "/Stagisti/"
 
 const Sidebar = () => {
+
   return (
-    <div className="flex flex-row overflow-auto min-h-screen">
-      <div className="w-64 flex flex-col bg-gray-800 text-white font-bold font-sans sticky">
+    <div className="flex items-start min-h-screen">
+      <div className="w-64 flex flex-col bg-gray-800 text-white font-bold font-sans sticky top-0 min-h-screen">
         <div className="flex items-center justify-center h-14 border-b border-gray-700">
-          <Link to={url} className="px-4 py-2 hover:bg-gray-700 text-3xl">
-            <div>Stagisti</div>
+          <Link to={url} className="px-4 py-2 hover:bg-gray-700 text-3xl inline-flex items-center">
+            <img src={S} className="max-h-9 invert"/><div className='-tracking-tight'>tagisti</div>
           </Link>
         </div>
         <nav className="flex-grow">
@@ -48,7 +50,7 @@ const Sidebar = () => {
         </nav>
       </div>
       <main className="flex flex-col flex-grow bg-gray-100 justify-center">
-        <ScrollToTop smooth top={500} className='px-[6px]'/>
+        <ScrollToTop smooth top={500} className='px-[6px]' />
         <Outlet />
       </main>
     </div>

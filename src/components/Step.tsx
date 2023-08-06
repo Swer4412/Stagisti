@@ -1,4 +1,4 @@
-export type step = {
+export type stepProps = {
   counter: number,
   title: string,
   body: Array<element>
@@ -10,7 +10,7 @@ type element = {
   list?: Array<string>;
 }
 
-const Step = ({counter, title, body}: step) => {
+const Step = ({counter, title, body}: stepProps) => {
 
   return (
     <div className="bg-gray-100 p-4 rounded border border-gray-300 max-w-7xl">
