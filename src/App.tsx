@@ -6,6 +6,7 @@ import Setup from './pages/Setup'
 import Errori from './pages/Errori'
 import Hardware from './pages/Hardware'
 import Curiosita from './pages/Curiosita'
+import NotFound from './pages/NotFound'
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
       <Route path="/Stagisti/errori" element={<Errori/>}/>
       <Route path="/Stagisti/hardware" element={<Hardware/>}/>
       <Route path="/Stagisti/curiosita" element={<Curiosita/>}/>
-      <Route path="*" element={<h1>Pagina inesistente</h1>}></Route>
+      <Route path="*" element={<NotFound/>}></Route>
     </Route>
   ))
 
