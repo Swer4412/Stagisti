@@ -1,4 +1,4 @@
-import file from '../texts/windows.json'
+import file from '../texts/Windows.json'
 import Step from '../components/Step'
 
 const Windows = () => {

@@ -1,4 +1,5 @@
-import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
+import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider, useLocation, Routes } from 'react-router-dom'
+import {useEffect} from "react"
 import Welcome from "./pages/Welcome"
 import Sidebar from './layout/Sidebar'
 import Windows from './pages/Windows'
@@ -10,20 +11,25 @@ import NotFound from './pages/NotFound'
 
 function App() {
 
-  const router = createBrowserRouter(createRoutesFromElements(
-    <Route path="/Stagisti" element={<Sidebar/>}>
-      <Route index element={<Welcome/>}/>
-      <Route path="/Stagisti/windows" element={<Windows/>}/>
-      <Route path="/Stagisti/setup" element={<Setup/>}/>
-      <Route path="/Stagisti/errori" element={<Errori/>}/>
-      <Route path="/Stagisti/hardware" element={<Hardware/>}/>
-      <Route path="/Stagisti/curiosita" element={<Curiosita/>}/>
-      <Route path="*" element={<NotFound/>}></Route>
-    </Route>
-  ))
+  const { pathname } = useLocation();
+
+  // Automatically scrolls to top whenever pathname changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
-    <RouterProvider router= {router}/>
+    <Routes>
+      <Route path="/Stagisti" element={<Sidebar/>}>
+        <Route index element={<Welcome/>}/>
+        <Route path="/Stagisti/windows" element={<Windows/>}/>
+        <Route path="/Stagisti/setup" element={<Setup/>}/>
+        <Route path="/Stagisti/errori" element={<Errori/>}/>
+        <Route path="/Stagisti/hardware" element={<Hardware/>}/>
+        <Route path="/Stagisti/curiosita" element={<Curiosita/>}/>
+        <Route path="*" element={<NotFound/>}></Route>
+      </Route>
+    </Routes>
   )
 }
 

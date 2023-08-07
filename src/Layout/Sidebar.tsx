@@ -11,6 +11,8 @@ const url = "/Stagisti/"
 
 const Sidebar = () => {
 
+  const link = "px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg"
+
   return (
     <div className="flex items-start min-h-screen">
       <div className="w-64 flex flex-col bg-gray-800 text-white font-bold font-sans sticky top-0 min-h-screen">
@@ -22,27 +24,27 @@ const Sidebar = () => {
         <nav className="flex-grow">
           <ul className="flex flex-col py-4">
             <li className="m-2">
-              <Link to={url + "windows"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
+              <Link to={url + "windows"} className={link}>
                 <SiWindows11 /> <p className='ml-2'>Windows</p>
               </Link>
             </li>
             <li className="m-2">
-              <Link to={url + "setup"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
+              <Link to={url + "setup"} className={link}>
                 <LuScreenShare /> <p className='ml-2'>Setup</p>
               </Link>
             </li>
             <li className="m-2">
-              <Link to={url + "errori"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
+              <Link to={url + "errori"} className={link}>
                 <BiError /> <p className='ml-2'>Errori</p>
               </Link>
             </li>
             <li className="m-2">
-              <Link to={url + "hardware"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
+              <Link to={url + "hardware"} className={link}>
                 <MdHardware /> <p className='ml-2'>Hardware</p>
               </Link>
             </li>
             <li className="m-2">
-              <Link to={url + "curiosita"} className="px-4 py-2 hover:bg-gray-700 inline-flex items-center rounded-lg">
+              <Link to={url + "curiosita"} className={link}>
                 <FaRegLightbulb /><p className='ml-2'>Curiosità</p>
               </Link>
             </li>
