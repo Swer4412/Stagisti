@@ -3,6 +3,9 @@
         "title": "CHIAVETTA E BOOT MENU",
         "body": [
             {
+                "text" : "Prendi la chiavetta contenente windows (chiedi al responsabile di laboratorio)"
+            },
+            {
                 "image": "/usb-stick.jpeg"
             },
             {
@@ -62,14 +65,20 @@
                 "image" : "/install-type.png"
             },
             {
-                "text" : "Ora seleziona il disco e clicca su avanti, se ci sono più dischi, chiedi al responsabile di laboratorio su quale installare windows"
+                "text" : "A questo punto vedi molte partizioni, cancellale tutte finche non rimane solo 1 partizione ineliminabile (cancella tutto senza scrupoli, non puoi fare danni!)"
             },
             { 
                 "link" : {
                     "text": "Non trovo nessun disco!",
-                    "to" : "/Stagisti/errori/#"
+                    "to" : "errori#DISCO DI INSTALLAZIONE"
                 }
             }, 
+            {
+                "image" : "/partitions.png"
+            },
+            {
+                "text" : "Ora seleziona il disco e clicca su avanti, se ci sono più dischi, chiedi al responsabile di laboratorio su quale installare windows (in generale quello con meno spazio)"
+            },
             {
                 "image" : "/disks.png"
             }

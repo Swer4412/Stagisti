@@ -27,23 +27,23 @@ const p = "text-3xl font-bold font-seriff text-center"
             <div className="flex flex-wrap flex-col sm:flex-row justify-evenly">
                 <Link to={url + "windows"} className={link}>
                     <p className={p}>WINDOWS</p>
-                    <img className={img} src="/usb-stick.jpeg"/>
+                    <img className={img} src={url + "/usb-stick.jpeg"}/>
                 </Link>
                 <Link to={url + "setup"} className={link}>
                     <p className={p} >SETUP</p>
-                    <img className={img} src="/1.jpg"/>
+                    <img className={img} src={url + "/1.jpg"}/>
                 </Link>
                 <Link to={url + "errori"} className={link}>
                     <p className={p}>ERRORI</p>
-                    <img className={img} src="/1.jpg"/>
+                    <img className={img} src={url + "/1.jpg"}/>
                 </Link>
                 <Link to={url + "hardware"} className={link}>
                     <p className={p}>HARDWARE</p>
-                    <img className={img} src="/1.jpg"/>
+                    <img className={img} src={url + "/1.jpg"}/>
                 </Link>
                 <Link to={url + "curiosita"} className={link}>
                     <p className={p}>CURIOSITA'</p>
-                    <img className={img} src="/1.jpg"/>
+                    <img className={img} src={url + "/1.jpg"}/>
                 </Link>
             </div>
             

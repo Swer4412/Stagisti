@@ -29,7 +29,7 @@
             {
                 "link" : {
                     "text": "Torna alla guida",
-                    "to" : "/Stagisti/windows#INSTALLAZIONE DI WINDOWS"
+                    "to" : "windows#INSTALLAZIONE DI WINDOWS"
                 }
             }
         ]
