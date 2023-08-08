@@ -17,11 +17,14 @@
             },
             {
                 "list": [
+                    "DELL e LENOVO: F12",
                     "HP: Esc o F9",
                     "ASUS: F8 o mantieni premuto F2 e accendi",
-                    "DELL e LENOVO: F12",
                     "MSI: F11"
                 ]
+            },
+            {
+                "text" : "Computer come hp e asus non hanno sempre lo stesso bottone per entrare nel boot menu, prova finche non reisci"
             },
             {
                 "text": "Una volta entrato nel boot menù (la grafica cambia in base alla marca) seleziona la chiavetta usb "
@@ -35,10 +38,40 @@
         "title": "INSTALLAZIONE DI WINDOWS",
         "body": [
             {
-                "text": "A questo punto ti trovi in una schermata blu, clicca su avanti e poi su installa (l'operazione può impegare anche 5 minuti)"
+                "text": "A questo punto ti trovi in una schermata blu, clicca su avanti e poi su installa"
             },
             {
-                "image": "/1.jpg"
+                "image": "/win-install.png"
+            },
+            {
+                "text": "Nel caso chieda un product key, clicca su 'Non ho un codice product key' (metterai tale codice successivamente)"
+            },
+            {
+                "image": "/product-key.png"
+            },
+            {
+                "text": "Successivamente clicca sulla versione PRO di windows (vale per windows 11 e 10) e poi clicca avanti"
+            },
+            {
+                "image" : "/version.png"
+            },
+            {
+                "text" : "In questa schermata viene chiesto il tipo di installazione, clicca su Personalizzata"
+            },
+            {
+                "image" : "/install-type.png"
+            },
+            {
+                "text" : "Ora seleziona il disco e clicca su avanti, se ci sono più dischi, chiedi al responsabile di laboratorio su quale installare windows"
+            },
+            { 
+                "link" : {
+                    "text": "Non trovo nessun disco!",
+                    "to" : "/Stagisti/errori/#"
+                }
+            }, 
+            {
+                "image" : "/disks.png"
             }
         ]
     },

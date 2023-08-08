@@ -1,0 +1,37 @@
+[
+    {
+        "title" : "DISCO DI INSTALLAZIONE",
+        "body" : [
+            {
+                "text" : "Se non vedi alcun disco di installazione, clicca su 'carica driver', 'sfoglia'"
+            },
+            {
+                "image" : "/disk-drivers.png"
+            },
+            {
+                "text" : "Clicca sulla chiavetta con windows, driver vari"
+            },
+            {
+                "text" : "Non esiste un singolo driver per tutti i pc, prova finche non funziona (non preoccuparti non succede niente se sbagli driver)"
+            },
+            {
+                "text" : "Dopo aver selezionato un driver funzionante (come vedi nell'immagine), clicca su avanti"
+            },
+            {
+                "image" : "/loaded-disk-drivers.png"
+            },
+            {
+                "text" : "Magicamente sono apparse diverse partizioni"
+            },
+            {
+                "image" : "/partitions.png"
+            },
+            {
+                "link" : {
+                    "text": "Torna alla guida",
+                    "to" : "/Stagisti/windows#INSTALLAZIONE DI WINDOWS"
+                }
+            }
+        ]
+    }
+]
