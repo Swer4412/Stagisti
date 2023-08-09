@@ -3,7 +3,7 @@ import { SiWindows11 } from "react-icons/si"
 import { LuScreenShare } from "react-icons/lu"
 import { BiError } from "react-icons/bi"
 import { MdHardware } from "react-icons/md"
-import { FaRegLightbulb } from "react-icons/fa"
+import { FaRegLightbulb, FaPlus} from "react-icons/fa"
 import ScrollToTop from 'react-scroll-to-top';
 import S from '/s.png'
 
@@ -46,6 +46,11 @@ const Sidebar = () => {
             <li className="m-2">
               <Link to={url + "curiosita"} className={link}>
                 <FaRegLightbulb /><p className='ml-2'>Curiosità</p>
+              </Link>
+            </li>
+            <li className="m-2">
+              <Link to={url + "altro"} className={link}>
+                <FaPlus /><p className='ml-2'>Altro</p>
               </Link>
             </li>
           </ul>

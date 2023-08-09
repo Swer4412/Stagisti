@@ -3,13 +3,13 @@
         "title" : "DISCO DI INSTALLAZIONE",
         "body" : [
             {
-                "text" : "Se non vedi alcun disco di installazione, clicca su 'carica driver', 'sfoglia'"
+                "text" : "Se non vedi alcun disco di installazione, clicca su 'carica driver' → 'sfoglia'"
             },
             {
                 "image" : "/disk-drivers.png"
             },
             {
-                "text" : "Clicca sulla chiavetta con windows, driver vari"
+                "text" : "Clicca sulla chiavetta con windows →'driver vari'"
             },
             {
                 "text" : "Non esiste un singolo driver per tutti i pc, prova finche non funziona (non preoccuparti non succede niente se sbagli driver)"
@@ -30,6 +30,42 @@
                 "link" : {
                     "text": "Torna alla guida",
                     "to" : "windows#INSTALLAZIONE DI WINDOWS"
+                }
+            }
+        ]
+    },
+    {
+        "title" : "WINDOWS SENZA BOOT MENU",
+        "body" : [
+            {
+                "text" : "Se sei qui vuol dire che hai acceso il pc ed è partito windows senza che tu abbia intervenito"
+            },
+            {
+                "image" : "/setup-fp.png"
+            },
+            {
+                "text" : "Windows parte da solo perchè sui computer nuovi c'è quasi sempre windows gia installato, si inserisce la chiavetta e si installa (o per correttezza si sovrascrive) windows per vari motivi"
+            },
+            {
+                "list" :[
+                    "Il computer ha una versione che non piace al cliente",
+                    "Windows preinstallato contiene programmi, anti-virus e sfondo personalizzati, che sono inutili",
+                    "Installare windows da chiavetta permette di fornire un prodotto standard al cliente"
+                ]
+            },
+            {
+                "text" : "SOLUZIONE: tieni premuto sul tasto di accensione per circa 10 secondi e aspetta che si spenga completamente"
+            },
+            {
+                "image" : "/hold-power-button.jpeg"
+            },
+            {
+                "text" : "Ora segui gli step per entrare nel boot menu"
+            },
+            {
+                "link" : {
+                    "text": "Torna alla guida",
+                    "to" : "windows#CHIAVETTA E BOOT MENU"
                 }
             }
         ]
