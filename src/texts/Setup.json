@@ -1,53 +1,47 @@
 [
     {
-        "title": "CHIAVETTA E BOOT MENU",
+        "title": "PERSONALIZZAZIONE",
         "body": [
             {
-                "image": "/usb-stick.jpeg"
+                "text" : "Se hai seguito la guida passo per passo, adesso dovresti vedere questa schermata"
             },
             {
-                "text": "Per installare windows bisogna inserire la chiavetta usb nel pc, accenderlo e poi premere RIPETUTAMENTE uno di questi tasti per entrare nel boot menu:"
+                "image" : "/first-desktop.png"
             },
+            {
+                "text" : "Bisonga ora fare diverse modifiche. Per prima cosa trascina le icone nella barra delle applicazioni in modo che siano visibili"
+            },
+            {
+                "image" : "/icons-to-bar.png"
+            },
+            {
+                "text" : "Dopo di che fai un click destro sulla barra delle applicazioni e clicca su Impostazioni della barra delle applicazioni"
+            },
+            {
+                "image" : "/bar-customization.png"
+            },
+            {
+                "text" : "Qui devi disattivare le spunte blu di Visualizzazione attività, Widget e Chat. Poi clicca su Comportamenti della barra delle applicazioni → a sinistra"
+            },
+            {
+                "image" : "/app-bar-customized.png"
+            },
+            {
+                "text" : "Vai ora su personalizza (Impostazioni → Personalizza), clicca sullo sfondo a tema Alba, e poi su Colori"
+            },
+            {
+                "text" : "Se windows non è attivato, bisogna attivarlo prima di proseguire"
+            },
+            {
+                "link" : {
+                    "text" : "Attivazione Windows",
+                    "to" : "altro#ATTIVAZIONE WINDOWS"
+                }
+            },
+            {
+                "image" : "/theme-and-colors.png"
+            }
             
-            {
-                "image": "/keyboard.jpg"
-            },
-            {
-                "text": "ATTENZIONE! il tasto deve essere cliccato ripetutamente da quando si accende il pc fino a quando si apre il boot menù"
-            },
-            {
-                "list": [
-                    "HP: Esc o F9",
-                    "ASUS: F8 o mantieni premuto F2 e accendi",
-                    "DELL e LENOVO: F12",
-                    "MSI: F11"
-                ]
-            },
-            {
-                "text": "Una volta entrato nel boot menù (la grafica cambia in base alla marca) seleziona la chiavetta usb "
-            },
-            {
-                "image": "/boot-menu.png"
-            }
-        ]
-    },
-    {
-        "title": "INSTALLAZIONE DI WINDOWS",
-        "body": [
-            {
-                "text": "A questo punto ti trovi in una schermata blu, clicca su avanti e poi su installa (l'operazione può impegare anche 5 minuti)"
-            },
-            {
-                "image": "/1.jpg"
-            }
-        ]
-    },
-    {
-        "title": "SETUP WINDOWS",
-        "body": [
-            {
-                "text": "Una volta che windows è stato installato bisongna completare la configurazione di base"
-            }
         ]
     }
 ]

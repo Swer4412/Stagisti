@@ -1,9 +1,18 @@
 [
     {
-        "title" : "Boh",
+        "title" : "ATTIVAZIONE WINDOWS",
         "body" : [
             {
-                "text": "ciao"
+                "text": "Per attivare windows clicca vai su Impostazioni → Sistema → Attivazione"
+            },
+            {
+                "image" :"/activate-windows-page.png"
+            },
+            {
+                "text" : "Serve un codice product key per attivare windows (licenza digitale, ovvero gratis)"
+            },
+            {
+                "text" : "Questo codice si trova in \\\\nas\\"
             }
         ] 
     }
