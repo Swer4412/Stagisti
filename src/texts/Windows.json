@@ -156,16 +156,16 @@
                 ]
             },
             {
-                "text": "Clicca su successivo per andare avanti"
+                "text": "Clicca su Successivo per andare avanti"
             },
             {
                 "image" : "/username.png"
             },
             {
-                "text" : "Windows ti chiederà un numero di cose, per tutte queste clicca sulla seconda opzione (no/solo obbligatori)"
+                "text" : "Windows ti chiederà un numero di cose, per tutte queste seleziona la seconda opzione (no / solo obbligatori)"
             },
             {
-                "text" : "Per andare avanti clicca su accetta"
+                "text" : "Per andare avanti clicca su Accetta"
             },
             {
                 "image" : "/configuration-no.png"

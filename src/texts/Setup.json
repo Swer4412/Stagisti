@@ -9,7 +9,10 @@
                 "image" : "/first-desktop.png"
             },
             {
-                "text" : "Bisonga ora fare diverse modifiche. Per prima cosa trascina le icone nella barra delle applicazioni in modo che siano visibili"
+                "text" : "Bisonga ora fare diverse modifiche"
+            },
+            {
+                "text" : "Per prima cosa trascina le icone nella barra delle applicazioni in modo che siano visibili"
             },
             {
                 "image" : "/icons-to-bar.png"
@@ -27,7 +30,11 @@
                 "image" : "/app-bar-customized.png"
             },
             {
-                "text" : "Vai ora su personalizza (Impostazioni → Personalizza), clicca sullo sfondo a tema Alba, e poi su Colori"
+                "text" : "Vai ora su Personalizza (Impostazioni → Personalizza), clicca sullo sfondo a tema Alba, e poi su Colori"
+            },
+            
+            {
+                "image" : "/theme-and-colors.png"
             },
             {
                 "text" : "Se windows non è attivato, bisogna attivarlo prima di proseguire"
@@ -39,9 +46,32 @@
                 }
             },
             {
-                "image" : "/theme-and-colors.png"
+                "text" : "Seleziona la modalità → personalizzata"
+            },
+            {
+                "text" : "Scegli la modalità predefinita di windows → scura"
+            }, 
+            {
+                "image" : "/custom-dark-light.png"
+            },
+            {
+                "text": "Vai in Personalizzazione → Temi → Impostazioni delle icone del desktop"
+            },
+            {
+                "image" : "/custom-themes.png"
+            },
+            {
+                "text" : "Seleziona Computer, File dell'utente e Pannello di controllo → Ok"
+            },
+            {
+                "image" : "/desktop-icons.png"
+            },
+            {
+                "text" : "Riordina il desktop come nell immagine sottostante"
+            },
+            {
+                "image" : "/ordered-desktop.png"
             }
-            
         ]
     }
 ]

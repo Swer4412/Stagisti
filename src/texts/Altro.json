@@ -12,7 +12,40 @@
                 "text" : "Serve un codice product key per attivare windows (licenza digitale, ovvero gratis)"
             },
             {
-                "text" : "Questo codice si trova in \\\\nas\\"
+                "text" : "Clicca su Tasto Windows + r (oppure click destro sull icona di windows → Esegui)"
+            },
+            {
+                "image" : "windows-r-backslash.jpg"
+            },
+            {
+                "text" : "Digita: \\\\nas (backslash)"
+            },
+            {
+                "image" : "/nas.png"
+            },
+            {
+                "text" : "Ora naviga fino a \\\\nas\\Laboratorio\\Codici\\Windows11\\Pro."
+            },
+            {
+                "image" : "/windows-keys.png"
+            },
+            {
+                "text" : "Scegline uno qualunque e copia il codice OEM (Riprova finche funziona)"
+            },
+            {
+                "image" : "/oem-key.png"
+            },
+            {
+                "text" : "Adesso windows è attivato, controlla che ci sia scritto 'Windows 11 Pro' e non 'Windows 11 Pro for workstations' o altro (Riprova finche non vedi 'Windows 11 Pro')"
+            },
+            {
+                "image" : "/windows-active.png"
+            }, 
+            {
+                "link" : {
+                    "text" : "Torna alla guida",
+                    "to" : "setup#PERSONALIZZAZIONE"
+                }
             }
         ] 
     }
