@@ -31,11 +31,11 @@ const p = "text-3xl font-bold font-seriff text-center"
                 </Link>
                 <Link to={url + "setup"} className={link}>
                     <p className={p} >SETUP</p>
-                    <img className={img} src={url + "/1.jpg"}/>
+                    <img className={img} src={url + "/first-desktop.png"}/>
                 </Link>
                 <Link to={url + "errori"} className={link}>
                     <p className={p}>ERRORI</p>
-                    <img className={img} src={url + "/1.jpg"}/>
+                    <img className={img} src={url + "/hold-power-button.jpeg"}/>
                 </Link>
                 <Link to={url + "hardware"} className={link}>
                     <p className={p}>HARDWARE</p>
@@ -43,6 +43,10 @@ const p = "text-3xl font-bold font-seriff text-center"
                 </Link>
                 <Link to={url + "curiosita"} className={link}>
                     <p className={p}>CURIOSITA'</p>
+                    <img className={img} src={url + "/1.jpg"}/>
+                </Link>
+                <Link to={url + "altro"} className={link}>
+                    <p className={p}>ALTRO'</p>
                     <img className={img} src={url + "/1.jpg"}/>
                 </Link>
             </div>

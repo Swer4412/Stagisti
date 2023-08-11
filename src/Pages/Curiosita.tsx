@@ -1,9 +1,17 @@
-const Curiosita = () => {
-    return (
-        <div>
-            Ciao sono la pagina curiosità
-        </div>
-    );
+import file from '../texts/Curiosita.json'
+import Step from '../components/Step'
+
+const Errori = () => {
+
+    //Tolgo il counter perchè questa è una pagina che contiene informazioni frammentate
+
+  return (
+    file.map((step) => {
+      return <>
+        <Step title={step.title} body={step.body} />
+      </>
+    })
+  );
 };
 
-export default Curiosita;
+export default Errori;

@@ -9,14 +9,16 @@
                 "image" : "/setup-fp.png"
             },
             {
-                "text" : "Windows parte da solo perchè sui computer nuovi c'è quasi sempre windows gia installato, si inserisce la chiavetta e si installa (o per correttezza si sovrascrive) windows per vari motivi"
+                "text" : "Windows parte perchè sui computer nuovi è quasi sempre preinstallato, windows parte anche se è inserita la chiavetta per l'installazione"
             },
             {
-                "list" :[
-                    "Il computer ha una versione che non piace al cliente",
-                    "Windows preinstallato contiene programmi, anti-virus e sfondo personalizzati, che sono inutili",
-                    "Installare windows da chiavetta permette di fornire un prodotto standard al cliente"
-                ]
+                "text" : "Si entra nel boot menu proprio per dire al pc di entrare nella chiavetta e non in windows (quello preinstallato)"
+            },
+            {
+                "link" : {
+                    "text" : "Perchè si sovrascrive windows",
+                    "to" : "curiosita#PERCHE SI SOVRASCRIVE WINDOWS"
+                }
             },
             {
                 "text" : "SOLUZIONE: tieni premuto sul tasto di accensione per circa 10 secondi e aspetta che si spenga completamente"

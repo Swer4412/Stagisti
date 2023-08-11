@@ -1,4 +1,5 @@
 import { HashLink} from "react-router-hash-link"
+import Image from "./Image"
 
 export type stepProps = {
   counter?: number,
@@ -22,7 +23,7 @@ const Step = ({ counter, title, body }: stepProps) => {
       <h1 className="text-5xl font-bold mb-4 font-mono" id={title}>{counter ? counter + "° " + title : title}</h1>
       {body.map((element: element) => (
         element.text && <p className="my-4 text-gray-800 font-serif text-xl">{element.text}</p> ||
-        element.image && <img src={url + element.image} className="min-h-[18rem] max-h-96 min-w-[24rem] mx-4 mb-4 shadow rounded-lg transform-gpu hover:scale-110 duration-1000" /> ||
+        element.image && <Image link={url + element.image} /> ||
         element.list && (
           <ul className="list-disc list-inside mb-4 font-serif text-lg">
             {element.list.map((item) => (
