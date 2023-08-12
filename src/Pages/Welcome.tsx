@@ -46,7 +46,7 @@ const p = "text-3xl font-bold font-seriff text-center"
                     <img className={img} src={url + "/1.jpg"}/>
                 </Link>
                 <Link to={url + "altro"} className={link}>
-                    <p className={p}>ALTRO'</p>
+                    <p className={p}>ALTRO</p>
                     <img className={img} src={url + "/1.jpg"}/>
                 </Link>
             </div>
