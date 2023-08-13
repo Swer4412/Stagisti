@@ -12,19 +12,13 @@
                 "text" : "Serve un codice product key per attivare windows (licenza digitale, ovvero gratis)"
             },
             {
-                "text" : "Clicca su Tasto Windows + r (oppure click destro sull icona di windows → Esegui)"
+                "text" : "I codici si trovano sul NAS, nella posizione: \\\\nas\\Laboratorio\\Codici\\Windows11\\Pro."
             },
             {
-                "image" : "windows-r-backslash.jpg"
-            },
-            {
-                "text" : "Digita: \\\\nas (backslash)"
-            },
-            {
-                "image" : "/nas.png"
-            },
-            {
-                "text" : "Ora naviga fino a \\\\nas\\Laboratorio\\Codici\\Windows11\\Pro."
+                "link" : {
+                    "text" : "Come si entra sul nas",
+                    "to" : "altro#ENTRARE SUL NAS"
+                }
             },
             {
                 "image" : "/windows-keys.png"
@@ -44,9 +38,32 @@
             {
                 "link" : {
                     "text" : "Torna alla guida",
-                    "to" : "setup#PERSONALIZZAZIONE"
+                    "to" : "BACK"
                 }
             }
         ] 
+    },
+    {
+        "title" : "ENTRARE SUL NAS",
+        "body" : [
+            {
+                "text" : "Clicca su Tasto Windows + r (oppure click destro sull icona di windows → Esegui)"
+            },
+            {
+                "image" : "windows-r-backslash.jpg"
+            },
+            {
+                "text" : "Digita: \\\\nas (backslash) → Ok"
+            },
+            {
+                "image" : "/nas.png"
+            },
+            {
+                "link" : {
+                    "text" : "Torna alla guida",
+                    "to" : "BACK"
+                }
+            }
+        ]
     }
 ]

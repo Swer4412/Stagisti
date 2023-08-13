@@ -1,47 +1,101 @@
-import { HashLink} from "react-router-hash-link"
+import { HashLink } from "react-router-hash-link";
 import Image from "./Image"
 
-export type stepProps = {
+export type StepProps = {
   counter?: number,
   title: string,
-  body: Array<element>
+  body: Array<Element>
 }
 
-type element = {
+type Element = {
   text?: string;
   image?: string;
   list?: Array<string>;
-  link?: { text: string, to: string }
+  link?: Link
 }
 
-const Step = ({ counter, title, body }: stepProps) => {
+type Link = {
+  text: string,
+  to: string 
+}
 
-  const url = "/Stagisti/" //Questo risolve il problema delle immagini che non si caricano su gh-pages
+const url = "/Stagisti/"
 
+// Create a custom component for the link element
+const LinkElement = ({ link }: { link: Link }) => {
+  // Use destructuring to access the properties of the link object
+  const { text, to } = link;
+  const linkStyle = "my-4 text-red-500 font-serif text-xl border-red-700 border-b-4 rounded-lg p-1 bg-red-200 hover:bg-red-400 hover:text-gray-800 w-fit"
+
+  // Handle the case when the link is to go back
+  if (to === "BACK") {
+    return (
+      <p
+        className={linkStyle}
+        onClick={() => window.history.back()}
+      >
+        {text}
+      </p>
+    );
+  }
+
+  // Handle the case when the link is to another page
+  return (
+    <HashLink to={url + to}>
+      <p className={linkStyle}>{text}</p>
+    </HashLink>
+  );
+};
+
+// Create a custom component for the image element
+const ImageElement = ({ image }: { image: string }) => {
+  //Lascio image in un altro file perchè rimane più oridinato
+  return <Image link={url + image} />;
+};
+
+// Create a custom component for the list element
+const ListElement = ({ list }: { list: string[] }) => {
+  return (
+    <ul className="list-disc list-inside mb-4 font-serif text-lg">
+      {list.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
+    </ul>
+  );
+};
+
+// Create a custom component for the text element
+const TextElement = ({ text }: { text: string }) => {
+  return <p className="my-4 text-gray-800 font-serif text-xl">{text}</p>;
+};
+
+// Use a switch statement to handle different types of elements
+const renderElement = (element: Element) => {
+  switch (true) {
+    case !!element.text:
+      return <TextElement text={element.text!} />;
+    case !!element.image:
+      return <ImageElement image={element.image!} />;
+    case !!element.list:
+      return <ListElement list={element.list!} />;
+    case !!element.link:
+      return <LinkElement link={element.link!} />;
+    default:
+      return null;
+  }
+};
+
+
+// Use destructuring to access the properties of the props object
+const Step = ({ title, counter, body }: StepProps) => {
   return (
     <div className="bg-gray-100 p-4 rounded border border-gray-300 max-w-7xl m-4">
-      <h1 className="text-5xl font-bold mb-4 font-mono" id={title}>{counter ? counter + "° " + title : title}</h1>
-      {body.map((element: element) => (
-        element.text && <p className="my-4 text-gray-800 font-serif text-xl">{element.text}</p> ||
-        element.image && <Image link={url + element.image} /> ||
-        element.list && (
-          <ul className="list-disc list-inside mb-4 font-serif text-lg">
-            {element.list.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        ) ||
-        element.link && <HashLink to={url + element.link.to}>
-          <p className="my-4 text-red-500 font-serif text-xl border-red-700 border-b-4 rounded-lg p-1
-         bg-red-200 hover:bg-red-400 hover:text-gray-800 w-fit">{element.link.text}</p>
-        </HashLink>
-
-      ))}
+      <h1 className="text-5xl font-bold mb-4 font-mono" id={title}>
+        {counter ? counter + "° " + title : title}
+      </h1>
+      {body.map((element: Element) => renderElement(element))}
     </div>
   );
 };
 
-
-
-
-export default Step;
+export default Step

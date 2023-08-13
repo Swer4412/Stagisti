@@ -12,7 +12,7 @@
                 "text" : "Bisonga ora fare diverse modifiche"
             },
             {
-                "text" : "Per prima cosa trascina le icone nella barra delle applicazioni in modo che siano visibili"
+                "text" : "Per prima cosa trascina sotto le 'icone nascoste' nella barra delle applicazioni in modo che siano visibili"
             },
             {
                 "image" : "/icons-to-bar.png"
@@ -46,10 +46,10 @@
                 }
             },
             {
-                "text" : "Seleziona la modalità → personalizzata"
+                "text" : "Scegli la modalità → Personalizzata"
             },
             {
-                "text" : "Scegli la modalità predefinita di windows → scura"
+                "text" : "Scegli la Modalità predefinita di windows → Scura"
             }, 
             {
                 "image" : "/custom-dark-light.png"
@@ -71,7 +71,56 @@
             },
             {
                 "image" : "/ordered-desktop.png"
+            },
+            {
+                "text" : "E' arrivato il momento di installare i programmi di base"
+            },
+            {
+                "link" : {
+                    "text" : "Come si entra sul nas",
+                    "to" : "altro#ENTRARE SUL NAS"
+                }
+            },
+            {
+                "text" : "I programmi di base si trovano in \\\\nas\\Laboratorio\\Utility - PC NUOVI (ATTENZIONE nomi e ordine potrebbero essere diversi)"
+            },
+            {
+                "text" : "Devi ora installare i seguenti programmi:"
+            },
+            {
+                "list" : [
+                    "Installa 7-Zip versione x64",
+                    "Se il pc è DELL: installa il contenuto della cartella DELL",
+                    "Se il pc è HP: installa il contenuto della cartella HP",
+                    "Installa Acrobat, Chrome e dotNetFx"
+                ]
+            },
+            {
+                "image" : "/utility.png"
+            },
+            {
+                "text" : "Una volta installato chrome clicca sui 3 puntini in alto a destra → Impostazioni → Aspetto"
+            },
+            {
+                "image" : "/"
+            },
+            {
+                "text" : "Clicca sui 3 puntini → Opzioni ( Se windows 10: Visualizza → Opzioni)"
+            },
+            {
+                "image" : "/fe-options.png"
+            },
+            {
+                "text": "In 'Apri esplora file per' → Questo pc"
+            },
+            {
+                "text" : "In Privacy deselziona i quadratini → Ok"
+            },
+            {
+                "image" : "/folder-options.png"
             }
+            
+
         ]
     }
 ]
