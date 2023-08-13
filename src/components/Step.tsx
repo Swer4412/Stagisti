@@ -12,6 +12,7 @@ type Element = {
   image?: string;
   list?: Array<string>;
   link?: Link
+  stitle?: string
 }
 
 type Link = {
@@ -20,6 +21,10 @@ type Link = {
 }
 
 const url = "/Stagisti/"
+
+const STitleElement = ({ stitle }: { stitle: string }) => {
+  return <p className="text-4xl font-semibold mb-4 font-mono">{stitle}</p>;
+}
 
 // Create a custom component for the link element
 const LinkElement = ({ link }: { link: Link }) => {
@@ -80,6 +85,8 @@ const renderElement = (element: Element) => {
       return <ListElement list={element.list!} />;
     case !!element.link:
       return <LinkElement link={element.link!} />;
+    case !!element.stitle:
+      return <STitleElement stitle={element.stitle!} />;
     default:
       return null;
   }

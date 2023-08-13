@@ -35,7 +35,7 @@ function Image({link}: props) {
     // set the transform origin property to center the image
     img.style.transformOrigin = "center";
 
-    img.style.cursor = img.style.cursor == "zoom-in" ? "zoom-out" : "zoom-in"
+    img.style.cursor = img.style.cursor == "zoom-out" ? "zoom-in" : "zoom-out"
     
   }, [scale]);
 
