@@ -65,5 +65,28 @@
                 }
             }
         ]
+    },
+    {
+        "title" : "TROVA NOME DELLA SCHEDA VIDEO",
+        "body" : [
+            {
+                "text" : "Per trovare il nome della scheda video, digita nella barra di ricerca 'Gestione dispositivi' (oppure, Pannello di controllo → Gestione dispositivi)"
+            },
+            {
+                "image" : "/device-manager-searchbar.png"
+            },
+            {
+                "text" : "Trova la voce Schede video e clicca sulla freccettina accanto per espanderlo"
+            },
+            {
+                "image" : "/graphics-cards.png"
+            },
+            {
+                "link" : {
+                    "text" : "Torna alla guida",
+                    "to" : "BACK"
+                }
+            }
+        ]
     }
 ]

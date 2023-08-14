@@ -54,7 +54,7 @@
                 "image": "/custom-dark-light.png"
             },
             {
-                "text": "Vai in Personalizzazione → Temi → Impostazioni delle icone del desktop"
+                "text": "Torna indietro in Personalizzazione, clicca su Temi → Impostazioni delle icone del desktop"
             },
             {
                 "image": "/custom-themes.png"
@@ -67,15 +67,16 @@
             },
             {
                 "text": "Riordina il desktop come nell immagine sottostante"
+            },
+            {
+                "image": "/ordered-desktop.png"
             }
         ]
     },
     {
         "title": "PROGRAMMI DI BASE",
         "body": [
-            {
-                "image": "/ordered-desktop.png"
-            },
+            
             {
                 "text": "E' arrivato il momento di installare i programmi di base"
             },
@@ -129,6 +130,13 @@
                 "text" : "Pui ora chiudere chrome"
             },
             {
+                "text" : "Riordina la barra delle applicazioni: Chrome, Edge, Esplora file, Microsoft store"
+            },
+            {
+                "image" : "/ordered-appbar.png"
+            },
+            
+            {
                 "text" : "Se hai gia installato sia Acrobat che Chrome, vai in Impostazioni → App → Predefinite"
             },
             {
@@ -169,11 +177,142 @@
             },
             {
                 "image" : "/control-panel-big-icons.png"
-            },
+            }
+        ]
+    },
+    {
+        "title" : "OPZIONI RISPARMIO ENERGIA",
+        "body" : [
             {
                 "stitle" : "LAPTOP"
+            },
+            {
+                "text" : "Se sei su un portatile segui questa guida"
+            },
+            {
+                "text" : "Su quasi tutti i portatili non ci sono altre opzioni oltre Bilanciato, di conseguenza clicca su Specifica comportamento pulsanti di alimentazione"
+            },
+            {
+                "image" : "/power-options-laptop.png"
+            },
+            {
+                "list" : [
+                    "Clicca su Modifica le impostazioni attualmente non disponibili",
+                    "Imposta 'Quando viene premuto il pulsante di alimentazione' su Arresta il sistema (sia A batteria, sia Alimentazione da rete elettrica)",
+                    "Imposta 'Quando viene chiuso il coperchio' su Non intervenire (sia A batteria, sia Alimentazione da rete elettrica)",
+                    "Deseleziona 'Attiva avvio rapido'",
+                    "Infine clicca su Salva cambiamenti"
+                ]
+            },
+            {
+                "image" : "/system-settings-laptop.png"
+            },
+            {
+                "text" : "Torna indietro e clicca su Modifica impostazioni di sospensione del computer"
+            },
+            {
+                "image" : "/stand-by-settings-laptop.jpg"
+            },
+            {
+                "text" : "Seleziona 5 minuti, 15 minuti sotto 'A batteria'"
+            },
+            {
+                "text" : "Seleziona Mai e Mai sotto 'Alimentazione da rete elettrica' → Salva cambiamenti"
+            },
+            {
+                "image" : "/stand-by-laptop.jpg"
+            },
+            {
+                "stitle" : "PC FISSO"
+            },
+            {
+                "text" : "Se sei su un pc fisso segui questa guida"
+            },
+            {
+                "text" : "Seleziona la modalità Prestazioni elevate, poi clicca su Specifica comportamento pulsanti di alimentazione"
+            },
+            {
+                "image" : "/power-options-pc.png"
+            },
+            {
+                "list" : [
+                    "Clicca su Modifica le impostazioni attualmente non disponibili",
+                    "Deseleziona 'Attiva avvio rapido'",
+                    "Infine clicca su Salva cambiamenti"
+                ]
+            },
+            {
+                "image" : "/system-settings-pc.png"
+            },
+            {
+                "text" : "Torna indietro e clicca su Modifica impostazioni di sospensione del computer"
+            },
+            {
+                "image" : "/stand-by-settings-pc.jpg"
+            },
+            {
+                "text" : "Seleziona Mai e Mai → Salva cambiamenti"
+            },
+            {
+                "image" : "/stand-by-pc.png"
+            },
+            {
+                "text" : "Puoi ora chiudere il Pannello di controllo"
             }
-            
         ]
-    }
+    },
+    {
+        "title" : "GESTIONE ATTIVITA",
+        "body" : [
+            {
+                "text" : "Apri Gestione attività (click destro sulla barra delle applicazioni → Gestione attività)"
+            },
+            {
+                "image" : "/task-manager-appbar.png"
+            },
+            {
+                "text" : "Clicca su App di avvio"
+            }, 
+            {
+                "image" : "/boot-apps.png"
+            },
+            {
+                "text" : "Disabilita Microsoft Teams e OneDrive, click destro → Disabilita"
+            },
+            {
+                "image" : "/teams-onedrive.png"
+            }
+        ]
+    },
+    {
+        "title" : "ANTIVIRUS",
+        "body" : [
+            {
+                "text" : "Clicca sull'iconcina con lo scudo nella barra delle applicazioni"
+            },
+            {
+                "image" : "/windows-defender-icon.png"
+            }, 
+            {
+                "text" : "Ignora tutto tranne Controllo delle app del browser (quest'ultimo attivalo)"
+            },
+            {
+                "image" : "/windows-defender-ignore.png"
+            }
+        ]
+    },
+    {
+        "title" : "DRIVER SCHEDA VIDEO",
+        "body" : [
+            {
+                "text" : "Se il tuo pc o laptop ha una scheda video dedicata segui questa guida"
+            },
+            {
+                "link" : {
+                    "text" : "Nome scheda video",
+                    "to" : "altro#TROVA NOME DELLA SCHEDA VIDEO"
+                }
+            }
+        ]
+    }   
 ]

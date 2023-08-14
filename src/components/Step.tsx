@@ -23,7 +23,7 @@ type Link = {
 const url = "/Stagisti/"
 
 const STitleElement = ({ stitle }: { stitle: string }) => {
-  return <p className="text-4xl font-semibold mb-4 font-mono">{stitle}</p>;
+  return <p className="text-5xl font-semibold mb-4 font-mono">{stitle}</p>;
 }
 
 // Create a custom component for the link element
