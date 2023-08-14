@@ -4,7 +4,6 @@ import { LuScreenShare } from "react-icons/lu"
 import { BiError } from "react-icons/bi"
 import { MdHardware } from "react-icons/md"
 import { FaRegLightbulb, FaPlus, FaBars} from "react-icons/fa"
-import { BsFillArrowLeftCircleFill} from "react-icons/bs"
 import ScrollToTop from 'react-scroll-to-top';
 import S from '/s.png'
 import { useState } from 'react';

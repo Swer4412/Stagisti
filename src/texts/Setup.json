@@ -308,10 +308,62 @@
                 "text" : "Se il tuo pc o laptop ha una scheda video dedicata segui questa guida"
             },
             {
+                "text" : "Apri Chrome (Incognito), cerca 'nvidia drivers' e clicca sul primo link"
+            },
+            {
+                "image" : "/chrome-nvidia-drivers.png"
+            },
+            {
+                "text" : "Devi ora cercare autonomamente il modello della scheda video in base ai filtri, eccoti alcune dritte"
+            },
+            {
+                "list" : [
+                    "Tipo di prodotto è spesso NVIDIA RTX / Quadro (scheda da lavoro) oppure GeForce (scheda da gioco)",
+                    "Serie del prodotto è spesso 'NVIDIA RTX Series' (se pc) oppure 'NVIDIA RTX Series (Notebooks)' (se laptop)",
+                    "Famglia di prodotti contiene il nome della scheda video (ATTENZIONE trova il nome esatto!)"
+                ]
+            },
+            {
                 "link" : {
                     "text" : "Nome scheda video",
                     "to" : "altro#TROVA NOME DELLA SCHEDA VIDEO"
                 }
+            },
+            {
+                "image" : "/nvidia-filters.png"
+            },
+            {
+                "text" : "Una volta trovata la scheda video esatta, clicca su Ricerca → Scarica → Download immediato"
+            },
+            {
+                "image" : "/immediate-download.png"
+            },
+            {
+                "text" : "Appena ha finito di scaricare il driver, aprilo e clicca su OK"
+            },
+            {
+                "text" : "Clicca su Driver grafico NVIDIA → Accetta e continua"
+            },
+            {
+                "image" : "/driver-fp.png"
+            },
+            {
+                "text" : "Clicca su Installazione personalizzata → Avanti"
+            },
+            {
+                "image" : "/personalized-install.png"
+            },
+            {
+                "text" : "Seleziona 'Esegui un'installazione pulita' → Avanti"
+            },
+            {
+                "image" : "/clean-install.png"
+            },
+            {
+                "text" : "Se lo schermo è diventato tutto nero per più di 1 minuto premi: Tasto Windows + ctrl + shift + B. Se lo schermo rimane nero, chiama il responsabile di laboratorio"
+            },
+            {
+                "text" : "Infine clicca su Chiudi"
             }
         ]
     }   
