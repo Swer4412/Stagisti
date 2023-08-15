@@ -366,5 +366,84 @@
                 "text" : "Infine clicca su Chiudi"
             }
         ]
-    }   
+    },
+    {
+        "title" : "AGGIORNAMENTI",
+        "body" : [
+            {
+                "stitle" : "WINDOWS"
+            },
+            {
+                "text" : "Ora bisogna cominciare con gli aggiornamenti"
+            },
+            {
+                "text" : "Vai su Impostazioni → Windows update"
+            },
+            {
+                "image" : "/windows-update.png"
+            },
+            {
+                "text" : "Clicca su Verifica disponibilità aggiornamenti e poi su Opzioni avanzate"
+            },
+            {
+                "image" : "/windows-updates.png"
+            },
+            {
+                "text" : "Successivamente clicca Aggiornamenti facoltativi e seleziona tutto, infine clicca Installa"
+            },
+            {
+                "image" : "/optional-updates.png"
+            },
+            {
+                "stitle" : "MICROSOFT STORE"
+            },
+            {
+                "text" : "Clicca sull'icona di Microsoft Store nella barra delle applicazioni"
+            },
+            {
+                "image" : "/microsoft-store-appbar.png"
+            },
+            {
+                "text" : "Clicca su raccolta (in basso a sinistra)"
+            },
+            {
+                "image" : "/collection-ms.png"
+            },
+            {
+                "text" : "Infine clicca su Recupera aggiornamenti"
+            },
+            {
+                "image" : "/get-updates-ms.png"
+            },
+            {
+                "text" : "Windows update e Microsoft Store possono essere chiusi, gli aggiornamenti verranno installati ugualemnte"
+            }
+        ]
+    },
+    {
+        "title" :"AGGIORNAMENTI IN BASE ALLA MARCA",
+        "body" : [
+            {
+                "text" : "Segui questa guida solo se hai un pc DELL o HP altrimenti saltala"
+            },
+            {
+                "stitle" : "DELL"
+            },
+            {
+                "text" : "Cerca nella barra di ricerca 'Dell | Command Update' "
+            },
+            {
+                "image" : "/dell-update-searchbar.png"
+            },
+            {
+                "text" : "Clicca su Controlla aggiornamenti"
+            },
+            {
+                "image" : "/dell-check-updates.png"
+            },
+            {
+                "text" : "Una volta trovati gli aggiornamenti clicca su Installa (controlla che siano tutti selezionati)"
+            }
+        ]
+    }
 ]
