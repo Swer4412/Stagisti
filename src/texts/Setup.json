@@ -380,19 +380,16 @@
                 "text" : "Vai su Impostazioni → Windows update"
             },
             {
-                "image" : "/windows-update.png"
-            },
-            {
                 "text" : "Clicca su Verifica disponibilità aggiornamenti e poi su Opzioni avanzate"
             },
             {
-                "image" : "/windows-updates.png"
+                "image" : "/windows-update.png"
             },
             {
-                "text" : "Successivamente clicca Aggiornamenti facoltativi e seleziona tutto, infine clicca Installa"
+                "text" : "Successivamente clicca Aggiornamenti facoltativi e selezionali tutti, infine clicca Scarica e installa"
             },
             {
-                "image" : "/optional-updates.png"
+                "image" : "/optional-updates.jpg"
             },
             {
                 "stitle" : "MICROSOFT STORE"
@@ -424,25 +421,199 @@
         "title" :"AGGIORNAMENTI IN BASE ALLA MARCA",
         "body" : [
             {
-                "text" : "Segui questa guida solo se hai un pc DELL o HP altrimenti saltala"
+                "text" : "Segui questa guida solo se hai un pc DELL, HP o ASUS altrimenti saltala"
             },
             {
                 "stitle" : "DELL"
             },
             {
-                "text" : "Cerca nella barra di ricerca 'Dell | Command Update' "
-            },
-            {
-                "image" : "/dell-update-searchbar.png"
+                "text" : "Cerca nella barra di ricerca 'Dell | Command Update' e aprilo (dovresti averlo installato insieme ai programmi di base)"
             },
             {
                 "text" : "Clicca su Controlla aggiornamenti"
             },
             {
-                "image" : "/dell-check-updates.png"
+                "image" : "/dell-check-updates.jpg"
             },
             {
                 "text" : "Una volta trovati gli aggiornamenti clicca su Installa (controlla che siano tutti selezionati)"
+            },
+            {
+                "image" : "/dell-install-updates.jpg"
+            },
+            {
+                "stitle" : "HP"
+            },
+            {
+                "text" : "Apri Hp support assistant (icona desktop) (dovresti averlo installato insieme ai programmi di base)"
+            },
+            {
+                "text" : "Seleziona la spunta Non visualizzare di nuovo e clicca su Continua come guest"
+            },
+            {
+                "image" : "/hpsa-fp.png"
+            },
+            {
+                "text" : "Successivamente clicca su Condividiamo in seguito (questa opzione compare dopo 5 secondi)"
+            },
+            {
+                "image" : "/hpsa-wait.png"
+            },
+            {
+                "text" : "Clicca sull'icona Aggiornamenti (oppure icona a sinistra di supporto tecnico → Software e drivers → LiveUpdate) "
+            },
+            {
+                "image" : "hpsa-support.jpg"
+            },
+            {
+                "text" : "Installa tutti gli aggiornamenti proposti"
+            },
+            {
+                "stitle" : "ASUS"
+            },
+            {
+                "text" : "MyASUS è preinstallato. Per aprire MyASUS clicca F12 (oppure cercalo nella barra delle applicazioni)"
+            },
+            {
+                "text" : "Seleziona la spunta Ho più di 16 anni → 'Accetto. Avviare MyASUS' → Avanti"
+            },
+            {
+                "image" : "/myasus-fp.png"
+            },
+            {
+                "text" : "Clicca sull'icona Supporto tecnico"
+            },
+            {
+                "image" : "/myasus-tecnical-support.png"
+            },
+            {
+                "text" : "Clicca su Live update"
+            },
+            {
+                "image" : "/myasus-liveupdate.jpg" 
+            },
+            {
+                "text" : "Installa tutti gli aggiornamenti che vedi, successivamente clicca su latest e installa tutto (solo se sono massimo 3 o 4, altrimenti ignorali)"
+            },
+            {
+                "image"  : "/myasus-liveupdate-updates.png"
+            }
+        ]
+    },
+    {
+        "title" : "RIAVVIO E AGGIORNAMENTI",
+        "body" : [
+            {
+                "text" : "Controlla che Windows update, Microsoft Store e qualunque altro installer (dell update, support assistant, myasus) NON STIANO INSTALLANDO NIENTE"
+            },
+            {
+                "text" : "Riavvia il computer in modo che gli aggiornamenti vengano installati"
+            },
+            {
+                "text" : "Una volta riacceso, controlla di nuovo gli aggiornamenti come nello step precedente"
+            },
+            {
+                "link" : {
+                    "text" : "Aggiornamenti",
+                    "to" : "setup#AGGIORNAMENTI"
+                }
+            }
+        ]
+    },
+    {
+        "title" : "MICROSOFT 365",
+        "body" : [
+            {
+                "text" : "Prima di tutto disinstalla office 365 preinstallato"
+            },
+            {
+                "link" : {
+                    "text" : "Disinstalla office",
+                    "to" : "setup#TOCCHI FINALI"
+                }
+            },
+            {
+                "text" : "Microsoft 365 si trova in \\\\nas\\laboratorio\\Office\\365-S"
+            },
+            {
+                "link": {
+                    "text": "Come si entra sul nas",
+                    "to": "altro#ENTRARE SUL NAS"
+                }
+            },
+            {
+                "image" : "/office-nas.png"
+            },
+            {
+                "stitle" : "TO BE CONTINUED"
+            }
+        ]
+    },
+    {
+        "title" : "TOCCHI FINALI",
+        "body" : [
+            {
+                "text" : "Vai su Impostazioni → App installate"
+            },
+            {
+                "image" : "/installed-apps.png"
+            },
+            {
+                "text" : "Cerca 'Microsoft office - 365', clicca sui 3 puntini a destra → Disinstalla"
+            },
+            {
+                "image" : "/unistall-365.png"
+            },
+            {
+                "text" : "Il computer è quasi pronto, mancano alcuni accorgimenti"
+            },
+            {
+                "text" : "Vai nella cartella download, seleziona tutto e clicca su elimina"
+            },
+            {
+                "image" : "/delete-downloads.png"
+            },
+            {
+                "text" : "Fai un click destro sul cestino → Svuota cestino"
+            },
+            {
+                "image" : "/empty-bin.png"
+            },
+            {
+                "text" : "Clicca sul pannello delle notifiche in basso a destra"
+            },
+            {
+                "image" : "/notifications-panel.png" 
+            },
+            {
+                "text" : "Clicca su Cancella tutto"
+            },
+            {
+                "image" : "/delete-all-notifications.png"
+            },
+            {
+                "text" : "Vai su Impostazioni → Sistema → Informazioni sul sistema → Protezione sistema"
+            },
+            {
+                "image" : "/system-protection.png"
+            },
+            {
+                "text" : "Clicca su Configura"
+            },
+            {
+                "image" : "/system-protection-configure.png"
+            },
+            {
+                "text" : "Seleziona Attiva protezione sistema, porta lo slider circa all 6-8% → Ok"
+            },
+            {
+                "image" : "/system-protection-configured.png"
+            },
+            {
+                "text" : "Clicca ora su Crea e scrivi jimmy"
+            },
+            {
+                "image" : "/system-protection-create.png"
             }
         ]
     }

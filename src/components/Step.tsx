@@ -97,7 +97,7 @@ const renderElement = (element: Element) => {
 const Step = ({ title, counter, body }: StepProps) => {
   return (
     <div className="bg-gray-100 p-4 rounded border border-gray-300 max-w-7xl m-4">
-      <h1 className="text-5xl font-bold mb-4 font-mono" id={title}>
+      <h1 className="text-5xl font-bold mb-4 font-mono w-fit" id={title}>
         {counter ? counter + "° " + title : title}
       </h1>
       {body.map((element: Element) => renderElement(element))}
