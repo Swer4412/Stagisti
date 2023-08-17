@@ -15,7 +15,7 @@ const p = "text-3xl font-bold font-seriff text-center"
             <h1 className='font-bold font-mono text-8xl'>
                 BENVENUTO
             </h1>
-            <a href="https://jimmypc.it/"><img src={url + "jimmyPc.jpg"}/></a>
+            <a href="https://jimmypc.it/" target="_blank"><img src={url + "jimmyPc.jpg"}/></a>
             <p className='my-4 text-gray-800 font-serif text-xl'>
                 Benvenuto nel laboratorio di Jimmy Computers, se stai vedendo questo sito è perchè hai appena iniziato il tuo stage e ti
                 serve una base di conoscenza per partire.
@@ -43,11 +43,11 @@ const p = "text-3xl font-bold font-seriff text-center"
                 </Link>
                 <Link to={url + "curiosita"} className={link}>
                     <p className={p}>CURIOSITA'</p>
-                    <img className={img} src={url + "/1.jpg"}/>
+                    <img className={img} src={url + "/brain.png"}/>
                 </Link>
                 <Link to={url + "altro"} className={link}>
                     <p className={p}>ALTRO</p>
-                    <img className={img} src={url + "/1.jpg"}/>
+                    <img className={img} src={url + "/other.png"}/>
                 </Link>
             </div>
             

@@ -553,19 +553,22 @@
         "title" : "TOCCHI FINALI",
         "body" : [
             {
-                "text" : "Vai su Impostazioni → App installate"
+                "stitle" : "Disinstalla microsoft 365"
+            },
+            {
+                "text" : "Vai su Impostazioni → App → App installate"
             },
             {
                 "image" : "/installed-apps.png"
             },
             {
-                "text" : "Cerca 'Microsoft office - 365', clicca sui 3 puntini a destra → Disinstalla"
+                "text" : "Cerca 'Microsoft 365 (Office)', clicca sui 3 puntini a destra → Disinstalla"
             },
             {
-                "image" : "/unistall-365.png"
+                "image" : "/uninstall-365.png"
             },
             {
-                "text" : "Il computer è quasi pronto, mancano alcuni accorgimenti"
+                "stitle" : "Svuota download e cestino"
             },
             {
                 "text" : "Vai nella cartella download, seleziona tutto e clicca su elimina"
@@ -580,6 +583,9 @@
                 "image" : "/empty-bin.png"
             },
             {
+                "stitle" : "Cancella notifiche"
+            },
+            {
                 "text" : "Clicca sul pannello delle notifiche in basso a destra"
             },
             {
@@ -592,10 +598,28 @@
                 "image" : "/delete-all-notifications.png"
             },
             {
+                "stitle" : "Rinomina PC"
+            },
+            {
+                "text" : "Se sei su windows 10, vai su Impostazioni → Informazioni sul sistema e clicca su Rinomina questo PC"
+            },
+            {
+                "image" : "/system-informations-rename.png"
+            },
+            {
+                "text" : "Inserisci un nome consono del tipo 'Modello-numero' (es. Vostro-3420), clicca su Successivo → Riavvia in seguito"
+            },
+            {
+                "image" : "/renamed-pc.png"
+            },
+            {
+                "stitle" : "Protezione sistema"
+            },
+            {
                 "text" : "Vai su Impostazioni → Sistema → Informazioni sul sistema → Protezione sistema"
             },
             {
-                "image" : "/system-protection.png"
+                "image" : "/system-informations-sys-prot.png"
             },
             {
                 "text" : "Clicca su Configura"
@@ -610,10 +634,19 @@
                 "image" : "/system-protection-configured.png"
             },
             {
-                "text" : "Clicca ora su Crea e scrivi jimmy"
+                "text" : "Clicca ora su Crea e scrivi jimmy → Crea"
             },
             {
                 "image" : "/system-protection-create.png"
+            },
+            {
+                "stitle" : "COMPLIMENTI HAI COMPLETATO LA CONFIGURAZIONE BASE DI UN PC!!"
+            },
+            {
+                "link" :{
+                    "text" : "Torna alla pagina centrale",
+                    "to" : "/"
+                }
             }
         ]
     }
