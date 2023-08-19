@@ -1,9 +1,17 @@
-const Hardware = () => {
-    return (
-        <div>
-            Ciao sono la pagina di hardware
-        </div>
-    );
+import file from '../texts/Hardware.json'
+import Step from '../components/Step'
+
+const Errori = () => {
+
+    //Tolgo il counter perchè questa è una pagina che contiene informazioni frammentate
+
+  return (
+    file.map((step) => {
+      return <>
+        <Step title={step.title} body={step.body} />
+      </>
+    })
+  );
 };
 
-export default Hardware;
+export default Errori;

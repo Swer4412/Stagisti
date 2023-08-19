@@ -39,7 +39,7 @@ const p = "text-3xl font-bold font-seriff text-center"
                 </Link>
                 <Link to={url + "hardware"} className={link}>
                     <p className={p}>HARDWARE</p>
-                    <img className={img} src={url + "/1.jpg"}/>
+                    <img className={img} src={url + "/gpu.jpg"}/>
                 </Link>
                 <Link to={url + "curiosita"} className={link}>
                     <p className={p}>CURIOSITA'</p>
