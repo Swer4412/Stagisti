@@ -20,8 +20,8 @@
             },
             {
                 "link" : {
-                    "text": "Torna alla guida",
-                    "to" : "errori#WINDOWS SENZA BOOT MENU"
+                    "text" : "Torna alla guida",
+                    "to" : "BACK"
                 }
             }
         ]

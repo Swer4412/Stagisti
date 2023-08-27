@@ -644,7 +644,7 @@
             },
             {
                 "link" :{
-                    "text" : "Torna alla pagina centrale",
+                    "text" : "Torna alla home",
                     "to" : "/"
                 }
             }

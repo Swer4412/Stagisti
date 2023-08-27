@@ -31,8 +31,8 @@
             },
             {
                 "link" : {
-                    "text": "Torna alla guida",
-                    "to" : "windows#CHIAVETTA E BOOT MENU"
+                    "text" : "Torna alla guida",
+                    "to" : "BACK"
                 }
             }
         ]
@@ -66,8 +66,8 @@
             },
             {
                 "link" : {
-                    "text": "Torna alla guida",
-                    "to" : "windows#INSTALLAZIONE DI WINDOWS"
+                    "text" : "Torna alla guida",
+                    "to" : "BACK"
                 }
             }
         ]

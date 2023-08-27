@@ -1,5 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 import Image from "./Image"
+import { RiArrowGoBackFill } from "react-icons/ri"
 
 export type StepProps = {
   counter?: number,
@@ -39,7 +40,7 @@ const LinkElement = ({ link }: { link: Link }) => {
         className={linkStyle}
         onClick={() => window.history.back()}
       >
-        {text}
+        <RiArrowGoBackFill size={40}/>
       </p>
     );
   }
@@ -47,7 +48,7 @@ const LinkElement = ({ link }: { link: Link }) => {
   // Handle the case when the link is to another page
   return (
     <HashLink to={url + to}>
-      <p className={linkStyle}>{text}</p>
+      <p className={linkStyle}>{text}?</p>
     </HashLink>
   );
 };

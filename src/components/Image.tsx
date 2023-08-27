@@ -39,13 +39,17 @@ function Image({link}: props) {
     
   }, [scale]);
 
+  //Check if device is small,
+  const isSmallDevice = window.matchMedia("(max-width: 768px)").matches;
+
   return (
     <img
       src={link}
-      className="min-h-[18rem] max-h-96 min-w-[24rem] sm:mx-4 mx-0 mb-4 shadow rounded-lg hover:cursor-zoom-in duration-200" 
+      className="min-h-[18rem] max-h-96 min-w-[24rem] sm:mx-4 mx-0 mb-4 shadow rounded-lg hover:cursor-zoom-in duration-200"
       ref={imgRef}
-      onClick={toggleScale}
-      onMouseLeave={resetScale}
+      // conditionally render the onClick and onMouseLeave props based on the device size
+      onClick={isSmallDevice ? undefined : toggleScale}
+      onMouseLeave={isSmallDevice ? undefined : resetScale}
     />
   );
 }
