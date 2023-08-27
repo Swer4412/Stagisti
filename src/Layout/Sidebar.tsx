@@ -1,4 +1,4 @@
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 import S from '/s.png'
 import { useState } from 'react';

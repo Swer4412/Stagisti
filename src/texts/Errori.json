@@ -6,7 +6,7 @@
                 "text" : "Se sei qui vuol dire che hai acceso il pc ed è partito windows senza che tu abbia intervenito"
             },
             {
-                "image" : "/setup-fp.png"
+                "image" : "setup-fp.png"
             },
             {
                 "text" : "Windows parte perchè sui computer nuovi è quasi sempre preinstallato, windows parte anche se è inserita la chiavetta per l'installazione"
@@ -24,7 +24,7 @@
                 "text" : "SOLUZIONE: tieni premuto sul tasto di accensione per circa 10 secondi e aspetta che si spenga completamente"
             },
             {
-                "image" : "/hold-power-button.jpeg"
+                "image" : "hold-power-button.jpeg"
             },
             {
                 "text" : "Ora segui gli step per entrare nel boot menu"
@@ -44,7 +44,7 @@
                 "text" : "Se non vedi alcun disco di installazione, clicca su 'carica driver' → 'sfoglia'"
             },
             {
-                "image" : "/disk-drivers.png"
+                "image" : "disk-drivers.png"
             },
             {
                 "text" : "Clicca sulla chiavetta con windows →'driver vari'"
@@ -56,13 +56,13 @@
                 "text" : "Dopo aver selezionato un driver funzionante (come vedi nell'immagine), clicca su avanti"
             },
             {
-                "image" : "/loaded-disk-drivers.png"
+                "image" : "loaded-disk-drivers.png"
             },
             {
                 "text" : "Magicamente sono apparse diverse partizioni"
             },
             {
-                "image" : "/partitions.png"
+                "image" : "partitions.png"
             },
             {
                 "link" : {

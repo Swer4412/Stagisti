@@ -31,7 +31,7 @@ const STitleElement = ({ stitle }: { stitle: string }) => {
 const LinkElement = ({ link }: { link: Link }) => {
   // Use destructuring to access the properties of the link object
   const { text, to } = link;
-  const linkStyle = "my-4 text-red-500 font-serif text-xl border-red-700 border-b-4 rounded-lg p-1 bg-red-200 hover:bg-red-400 hover:text-gray-800 w-fit"
+  const linkStyle = "my-4 text-red-500 font-calibri text-xl border-red-700 border-b-4 rounded-lg p-1 bg-red-200 hover:bg-red-400 hover:text-gray-800 w-fit"
 
   // Handle the case when the link is to go back
   if (to === "BACK") {
@@ -62,7 +62,7 @@ const ImageElement = ({ image }: { image: string }) => {
 // Create a custom component for the list element
 const ListElement = ({ list }: { list: string[] }) => {
   return (
-    <ul className="list-disc list-inside mb-4 font-serif text-lg">
+    <ul className="list-disc list-inside mb-4 font-calibri text-lg">
       {list.map((item) => (
         <li key={item}>{item}</li>
       ))}
@@ -72,7 +72,7 @@ const ListElement = ({ list }: { list: string[] }) => {
 
 // Create a custom component for the text element
 const TextElement = ({ text }: { text: string }) => {
-  return <p className="my-4 text-gray-800 font-serif text-xl">{text}</p>;
+  return <p className="my-4 text-gray-800 font-calibri text-xl">{text}</p>;
 };
 
 // Use a switch statement to handle different types of elements

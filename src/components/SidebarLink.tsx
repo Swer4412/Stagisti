@@ -48,6 +48,12 @@ const SidebarLink = ({name, closeSidebar} : SidebarLinkProps) => {
       : link; // Inactive link style
   };
 
+  const capitalize = (string: string) => {
+    const firstLetter = string.charAt(0)
+    return string.replace(firstLetter, firstLetter.toUpperCase())
+    
+  }
+
   return (
     // Return a list item element that renders a Link component with the name, icon, and style
     <li className="m-2">
@@ -56,7 +62,7 @@ const SidebarLink = ({name, closeSidebar} : SidebarLinkProps) => {
         to={url + name}
         className={getLinkStyle(url + name)}
       >
-        {getIcon(name)} <p className="ml-2">{name}</p>
+        {getIcon(name)} <p className="ml-2">{capitalize(name)}</p>
       </Link>
     </li>
   );
