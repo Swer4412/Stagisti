@@ -1,13 +1,13 @@
 import {Route, Routes, useLocation } from 'react-router-dom'
-import Welcome from "./pages/Welcome"
-import Sidebar from './layout/Sidebar'
-import Windows from './pages/Windows'
-import Setup from './pages/Setup'
-import Errori from './pages/Errori'
-import Hardware from './pages/Hardware'
-import Curiosita from './pages/Curiosita'
-import Altro from './pages/Altro'
-import NotFound from './pages/NotFound'
+import Welcome from "./Pages/Welcome"
+import Sidebar from './Layout/Sidebar'
+import Windows from './Pages/Windows'
+import Setup from './Pages/Setup'
+import Errori from './Pages/Errori'
+import Hardware from './Pages/Hardware'
+import Curiosita from './Pages/Curiosita'
+import Altro from './Pages/Altro'
+import NotFound from './Pages/NotFound'
 import { useEffect } from 'react'
 
 function App() {

@@ -18,7 +18,7 @@ type Element = {
 
 type Link = {
   text: string,
-  to: string 
+  to: string
 }
 
 const url = "/Stagisti/"
@@ -40,7 +40,7 @@ const LinkElement = ({ link }: { link: Link }) => {
         className={linkStyle}
         onClick={() => window.history.back()}
       >
-        <RiArrowGoBackFill size={40}/>
+        <RiArrowGoBackFill size={40} />
       </p>
     );
   }
@@ -48,7 +48,7 @@ const LinkElement = ({ link }: { link: Link }) => {
   // Handle the case when the link is to another page
   return (
     <HashLink to={url + to}>
-      <p className={linkStyle}>{text}?</p>
+      <p className={linkStyle}>{text}</p>
     </HashLink>
   );
 };
